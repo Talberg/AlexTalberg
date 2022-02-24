@@ -11,8 +11,10 @@ function Contact() {
 
         <img src={logo} className="App-logo" alt="logo" />
         <div class="container">
-        
-              <div> <iframe title='contactForm' src="https://survey.alchemer.com/s3/6743631/website-survey" frameborder="0" width="100%" height="1000" ></iframe></div>
+          <div class="title"> <h1>  Alex Talberg / <a href='/about_me'> About Me</a>|   <a href="/projects">Projects</a>   |   <a href="/contact">Contact Me</a></h1>
+          </div>
+
+          <div> <iframe title='contactForm' src="https://survey.alchemer.com/s3/6743631/website-survey" frameborder="0" width="100%" height="1000" ></iframe></div>
         </div>
       </header>
 

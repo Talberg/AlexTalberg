@@ -2,7 +2,7 @@ import logo from '../earth.png'
 
 // import { BrowserRouter , Router, Route, Switch } from "react-router-dom";
 
-function AboutMe() {
+function Projects() {
   return (
     <div className="logo">
       
@@ -14,7 +14,7 @@ function AboutMe() {
             <div class='title'>
                <div class="title"> <h1>  Alex Talberg / <a href='/about_me'> About Me</a>|   <a href="/projects">Projects</a>   |   <a href="/contact">Contact Me</a></h1>
             </div>
-            <h1>  About me </h1></div>
+            <h1>  Projects Tab   </h1></div>
             </div>
           </header>
    
@@ -23,4 +23,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default Projects;
